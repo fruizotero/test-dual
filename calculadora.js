@@ -26,7 +26,7 @@ class Calculadora {
     raizCuadrada(a) {
         if(a<0) throw new Error('No se puede calcular la raíz cuadrada de un número negativo.')
 
-        return Math.SQRT2(a)
+        return Math.sqrt(a)
     }
 }
 
